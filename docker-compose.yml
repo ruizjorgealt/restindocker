@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  webserver:
+    container_name: nodeapp
+    build: .
+    ports:
+      - '8080:3000'
+   
+ 
